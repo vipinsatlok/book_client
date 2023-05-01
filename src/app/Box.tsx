@@ -9,7 +9,7 @@ interface Props{
 export default function Box({ href, children } : Props) {
   return (
     <Link
-      className="w-full flex gap-3 rounded text-xl bg-orange-500 text-white p-3"
+      className="w-full flex gap-3 rounded items-center text-xl bg-orange-500 text-white p-3"
       href={href}
     >
         {children}

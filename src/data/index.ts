@@ -1,5 +1,6 @@
 import { IBook } from "@/types/books";
 import { IList } from "@/types/common";
+import { IUser } from "@/types/users";
 
 export const listData: IList[] = [
   {
@@ -49,5 +50,35 @@ export const bookData: IBook[] = [
     place: "Banthara",
     date: "31-02-2001",
     books: [{ sell: 3, name: "gyanGanga" }],
+  },
+];
+
+export const userData: IUser[] = [
+  {
+    _id: "4343",
+    name: "Vipin",
+    number: "765202883",
+    password: "8887",
+    gyanGanga: 0,
+    jeeneKiRah: 87,
+    total: 7,
+  },
+  {
+    _id: "4343",
+    name: "Vipin",
+    number: "765202883",
+    password: "8887",
+    gyanGanga: 0,
+    jeeneKiRah: 87,
+    total: 7,
+  },
+  {
+    _id: "4343",
+    name: "Vipin",
+    number: "765202883",
+    password: "8887",
+    gyanGanga: 0,
+    jeeneKiRah: 87,
+    total: 7,
   },
 ];
